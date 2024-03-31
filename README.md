@@ -1,18 +1,5 @@
 # First-Contributions
 
-#### Read this in your preferred language:
-
-<kbd>[Hindi](translations/Translations.md)</kbd>
-<kbd>[Gujarati](translations/README.gu.md)</kbd>
-<kbd>[Punjabi](translations/README.pa.md)</kbd>
-<kbd>[Kannada](translations/README.kn.md)</kbd>
-<kbd>[Marathi](translations/README.mr.md)</kbd>
-<kbd>[Odia](translations/README.or.md)</kbd>
-<kbd>[Tamil](translations/README.ta.md)</kbd>
-<kbd>[Telugu](translations/README.te.md)</kbd>
-<kbd>[Marwari](translations/README.mw.md)</kbd>
-
-
 This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
 
 ### If you don't have git on your machine, [install it](https://git-scm.com/downloads).
@@ -101,8 +88,29 @@ By following these practices, you can become an effective collaborator and make 
 
 ---
 
-## Where to go from here?
+# How to Translate English Files into Multiple Languages in Git
 
+To update your English files and translate them into the given languages in a Git repository, you can follow these general steps:
+
+1. **Identify Files to Translate**: Determine which files in your repository contain English text that needs to be translated. These could be README files, documentation files, or any other text-based content.
+
+2. **Create Translation Files**: For each language you want to translate into (Hindi, Gujarati, Punjabi, Kannada, Marathi, Odia, Tamil, Telugu, Marwari), create a new file with the translated content. For example, if you have a file named `README.md` in English, you can create separate files like `README.hi.md`, `README.gu.md`, `README.pa.md`, and so on, for each language.
+
+3. **Translate Content**: Open each English file and translate its content into the corresponding language. You can use translation tools or seek the help of native speakers to ensure accuracy.
+
+4. **Save Translation Files**: Save the translated files with appropriate filenames and extensions, following the pattern `<original_filename>.<language_code>.md`. For example, `README.md` would become `README.hi.md` for Hindi, `README.gu.md` for Gujarati, and so on.
+
+5. **Stage and Commit Changes**: Use Git to stage and commit the changes to your repository. 
+
+   ```bash
+   git add .
+   git commit -m 
+
+
+ By following these steps, you can update your English files and translate them into the specified languages in your Git repository. Make sure to maintain consistency in file naming conventions and keep the translations organized within the repository structure.
+
+
+# Where to go from here?
 
 You can also create a new branch in your forked repository to work on new features or bug fixes without affecting the main branch. This allows you to isolate your changes until they are ready to be merged into the main project.
 
